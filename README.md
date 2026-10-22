@@ -1,2 +1,2 @@
-# For Widya Arum Prastanti
+# Made for Widya Arum Prastanti
 I hope you love it
