@@ -53,18 +53,29 @@ body{
     color: #111;
 }
 
-@media screen and (max-width:574px){
-    .greetings{
+@@media screen and (max-width: 574px) {
+    .greetings {
         display: block;
-        font-size: 3rem;
+        /* Menyesuaikan ukuran font teks judul agar pas di layar HP */
+        font-size: 2rem; 
         font-weight: 500;
         text-align: center;
+        padding: 0 10px;
     }
-    .description{
+
+    .description {
         font-size: 1rem;
+        text-align: center;
+        padding: 0 10px;
     }
-    
-    .button a{
-        font-size: 50rem;
+
+    .button button {
+        padding: 8px 16px;
     }
+
+    .button a {
+        /* Mengubah ukuran tombol dari 50rem menjadi 1.2rem agar proporsional */
+        font-size: 1.2rem; 
+    }
+}
 }
